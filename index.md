@@ -38,16 +38,6 @@ For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
 
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to
-<a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
-your own website. If you are running a self-organized workshop or have not put
-in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a>
-to let us know about your workshop and our administrator may contact you if we
-need any extra information.
-</div>
-
 {% comment %}
 8< ============================= until here ==================
 {% endcomment %}
@@ -91,8 +81,8 @@ displayed if the 'eventbrite' field in the header is not set.
 {% comment %}
 INTRODUCTION
 
-Edit the general explanatory paragraph below if you want to change
-the pitch.
+Welcome to my new testing event to for a participatory workshop on data carpentry skills! 
+
 {% endcomment %}
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
@@ -105,8 +95,9 @@ the pitch.
 {% comment %}
 AUDIENCE
 
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
+This workshop is for wonderful people that share tons of enthusiasm for learning new data carpentries skills
+
+
 {% endcomment %}
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
@@ -263,7 +254,7 @@ Collaborative Notes
 
 If you want to use an Etherpad, go to
 
-https://pad.carpentries.org/YYYY-MM-DD-site
+https://pad.carpentries.org/2020-09-15-site
 
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
